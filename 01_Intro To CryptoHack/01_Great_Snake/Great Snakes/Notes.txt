@@ -1,0 +1,21 @@
+import sys is used to import system information and modules
+the element used here is called sys.version_info.major for the version of python
+
+print("".join(chr(o ^ 0x32) for o in ords))
+
+Here ^ in o^0x32 is called bitwise OR operation in python. 
+You can simply do mathematical operation in different base numbers
+example01.py is the example. 
+
+Then comes the bitwise XOR with ^ sign, from 0x32 we get 50 and 
+the binary of 50 in 8 bits is 00110010
+if another value is 81 and binary in 8 bits is 01010001
+Bitwise OR operation:
+81 : 01010001
+50 : 00110010
+--------------------
+XOR: 01100011 used the sign as ^
+OR : 01110011 used the sign as |
+AND: 00010000 used the sign as &
+
+As example we have example02.py for demonstration.
