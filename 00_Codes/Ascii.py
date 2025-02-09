@@ -5,5 +5,3 @@ String="You are in Anon3605 GitHUB"
 Integer=0
 for i in String:
     print(str(ord(i)),end="")
-
-for ASCII String we keep the 
